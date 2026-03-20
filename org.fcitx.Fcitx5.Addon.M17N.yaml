@@ -45,6 +45,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/fcitx/fcitx5-m17n
-        tag: 5.1.5
+        tag: 5.1.6
+        commit: afb4cba2c5d75d493ac03ad0ee4790ff7c14a078
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
